@@ -1,7 +1,7 @@
 
 var testurl = 'https://alpha.incytesdata-dev.com/'
 var password = "pacienT1" // Can be changed
-var email = "autotest.incytes+au14@gmail.com"
+var email = "autotest.incytes+au13@gmail.com"
 var phonecode = "7901"
 var teamname = "AutotestTeam"
 var defaultpatientmail = "autotest.incytes+l"
@@ -42,7 +42,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return false
 })
 
-describe('E2E Test', function () {
+ddescribe('E2E Test', function () {
 
     it("Cliician Login", () => {
 
